@@ -34,6 +34,7 @@ plugin 安装名保持为 `mattpocock-skills`，安装后 skill 命名空间为 
 - `grill-with-docs`
 - `grilling`
 - `handoff`
+- `implement`
 - `improve-codebase-architecture`
 - `prototype`
 - `setup-matt-pocock-skills`
@@ -78,6 +79,7 @@ mattpocock-skills:ask-matt
 mattpocock-skills:to-prd
 mattpocock-skills:to-issues
 mattpocock-skills:tdd
+mattpocock-skills:implement
 mattpocock-skills:handoff
 ```
 

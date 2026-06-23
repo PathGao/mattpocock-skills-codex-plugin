@@ -25,6 +25,7 @@ This package is derived from the upstream `1.0.1` content and removes the upstre
 - `grill-with-docs`
 - `grilling`
 - `handoff`
+- `implement`
 - `improve-codebase-architecture`
 - `prototype`
 - `setup-matt-pocock-skills`
@@ -57,6 +58,7 @@ mattpocock-skills:ask-matt
 mattpocock-skills:to-prd
 mattpocock-skills:to-issues
 mattpocock-skills:tdd
+mattpocock-skills:implement
 mattpocock-skills:handoff
 ```
 
