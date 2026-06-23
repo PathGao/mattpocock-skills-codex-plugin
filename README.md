@@ -46,6 +46,8 @@ In Codex, add this repository as a plugin marketplace, then install the plugin n
 /plugin install mattpocock-skills
 ```
 
+Installing it as a marketplace plugin lets Codex keep tracking this repository. When a newer version is available, Codex can manage the update through its plugin marketplace flow, including an upgrade button in surfaces that provide one.
+
 If your Codex surface uses CLI commands instead of chat slash commands, use the equivalent plugin marketplace add and plugin install commands for that surface.
 
 ## Usage

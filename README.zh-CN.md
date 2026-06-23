@@ -67,6 +67,8 @@ https://github.com/PathGao/mattpocock-skills-codex-plugin.git
 /plugin install mattpocock-skills
 ```
 
+按 marketplace plugin 方式安装后，Codex 会继续按该 marketplace 跟踪这个仓库。以后有新版本时，可以让 Codex 通过 marketplace 更新；如果当前界面提供升级按钮，也可以直接点击升级。
+
 如果你的 Codex 环境使用 CLI 而不是 slash command，使用等价的 plugin marketplace add 和 plugin install 命令即可。
 
 ## 使用
