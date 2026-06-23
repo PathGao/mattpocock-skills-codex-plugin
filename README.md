@@ -9,11 +9,11 @@ This repository is intended for public Codex plugin installation. It packages th
 ## Source
 
 - Upstream repository: [mattpocock/skills](https://github.com/mattpocock/skills)
-- Fork package repository: [PathGao/mattpocock-skills-codex-plugin](https://github.com/PathGao/mattpocock-skills-codex-plugin)
-- Fork base: `mattpocock/skills` version `1.0.1`
+- Current repository: [PathGao/mattpocock-skills-codex-plugin](https://github.com/PathGao/mattpocock-skills-codex-plugin)
+- Upstream base: `mattpocock/skills` version `1.0.1`
 - License: MIT, following the upstream project metadata
 
-This fork removes the upstream `personal`, `in-progress` / `inprogress`, and `deprecated` areas. The plugin exposes the curated skills under the `mattpocock-skills` Codex namespace.
+This package is derived from the upstream `1.0.1` content and removes the upstream `personal`, `in-progress` / `inprogress`, and `deprecated` areas. The plugin exposes the curated skills under the `mattpocock-skills` Codex namespace.
 
 ## Included Skills
 
