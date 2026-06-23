@@ -13,7 +13,7 @@ This repository is intended for public Codex plugin installation. It packages th
 - Upstream base: `mattpocock/skills` version `1.0.1`
 - License: MIT, following the upstream project metadata
 
-This package is derived from the upstream `1.0.1` content and removes the upstream `personal`, `in-progress` / `inprogress`, and `deprecated` areas. The plugin exposes the curated skills under the `mattpocock-skills` Codex namespace.
+This package is derived from the upstream `1.0.1` content and removes the upstream `personal`, most `in-progress` / `inprogress`, and `deprecated` areas. `review` is intentionally restored from upstream `skills/in-progress/review` as a public-package exception. The plugin exposes the curated skills under the `mattpocock-skills` Codex namespace.
 
 ## Included Skills
 
@@ -28,6 +28,7 @@ This package is derived from the upstream `1.0.1` content and removes the upstre
 - `implement`
 - `improve-codebase-architecture`
 - `prototype`
+- `review`
 - `setup-matt-pocock-skills`
 - `tdd`
 - `teach`
@@ -59,6 +60,7 @@ mattpocock-skills:to-prd
 mattpocock-skills:to-issues
 mattpocock-skills:tdd
 mattpocock-skills:implement
+mattpocock-skills:review
 mattpocock-skills:handoff
 ```
 
@@ -77,5 +79,5 @@ skills/                           Packaged skill directories
 
 - Keep `.codex-plugin/plugin.json` version aligned with the packaged upstream base or the fork release version you choose.
 - Keep `.agents/plugins/marketplace.json` plugin name aligned with `.codex-plugin/plugin.json`.
-- Do not add upstream `personal`, `in-progress` / `inprogress`, or `deprecated` directories unless the public package policy changes.
+- Do not add upstream `personal`, other `in-progress` / `inprogress`, or `deprecated` directories unless the public package policy changes.
 - When pulling upstream updates, review every new skill before exposing it in this plugin.

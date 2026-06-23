@@ -20,7 +20,7 @@ skills/                           已打包的 skill 目录
 - 上游基线：`mattpocock/skills` `1.0.1`
 - 许可证：MIT，沿用原项目 metadata
 
-本包从上游 `1.0.1` 内容派生，去掉了上游仓库中的 `personal`、`in-progress` / `inprogress`、`deprecated` 部分，只保留适合公开分发的精选 skills。
+本包从上游 `1.0.1` 内容派生，去掉了上游仓库中的 `personal`、大多数 `in-progress` / `inprogress`、`deprecated` 部分。`review` 是明确从上游 `skills/in-progress/review` 恢复的公开包例外。
 
 plugin 安装名保持为 `mattpocock-skills`，安装后 skill 命名空间为 `mattpocock-skills:`。
 
@@ -37,6 +37,7 @@ plugin 安装名保持为 `mattpocock-skills`，安装后 skill 命名空间为 
 - `implement`
 - `improve-codebase-architecture`
 - `prototype`
+- `review`
 - `setup-matt-pocock-skills`
 - `tdd`
 - `teach`
@@ -80,6 +81,7 @@ mattpocock-skills:to-prd
 mattpocock-skills:to-issues
 mattpocock-skills:tdd
 mattpocock-skills:implement
+mattpocock-skills:review
 mattpocock-skills:handoff
 ```
 
@@ -89,5 +91,5 @@ mattpocock-skills:handoff
 
 - `.codex-plugin/plugin.json` 的 `version` 当前对应上游基线 `1.0.1`。
 - `.agents/plugins/marketplace.json` 中的 plugin 名称必须与 `.codex-plugin/plugin.json` 保持一致。
-- 不加入上游 `personal`、`in-progress` / `inprogress`、`deprecated` 目录，除非公开包策略明确改变。
+- 不加入上游 `personal`、其他 `in-progress` / `inprogress`、`deprecated` 目录，除非公开包策略明确改变。
 - 同步上游时，先审查新增 skill，再决定是否暴露到本 plugin。

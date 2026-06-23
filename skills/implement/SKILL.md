@@ -10,6 +10,6 @@ Use `mattpocock-skills:tdd` where possible, at pre-agreed seams.
 
 Run typechecking regularly, single test files regularly, and the full test suite once at the end.
 
-Once done, review the work using the available code review skill or the host's standard review workflow.
+Once done, use `mattpocock-skills:review` to review the work.
 
 Commit the work to the current branch when the user asks for a commit.
