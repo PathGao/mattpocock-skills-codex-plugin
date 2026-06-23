@@ -20,7 +20,7 @@ skills/                           已打包的 skill 目录
 - 上游基线：`mattpocock/skills` `1.0.1`
 - 许可证：MIT，沿用原项目 metadata
 
-本包从上游 `1.0.1` 内容派生，默认去掉上游仓库中的 `personal`、`deprecated`、`in-progress` / `inprogress` 部分。目前唯一拉回来的 `in-progress` skill 是 `review`，来源是上游 `skills/in-progress/review`，作为公开包例外处理。
+本包从上游 `1.0.1` 内容派生，默认去掉上游仓库中的 `personal`、`deprecated`、`in-progress` 部分。目前唯一拉回来的 `in-progress` skill 是 `review`，来源是上游 `skills/in-progress/review`，作为公开包例外处理。上游 `misc/*` 也未纳入，因为这些内容主要是工具类或 Claude 相关 guardrails，不适合作为默认 Codex plugin skill。
 
 plugin 安装名保持为 `mattpocock-skills`，安装后 skill 命名空间为 `mattpocock-skills:`。
 
@@ -93,5 +93,5 @@ mattpocock-skills:handoff
 
 - `.codex-plugin/plugin.json` 的 `version` 当前对应上游基线 `1.0.1`。
 - `.agents/plugins/marketplace.json` 中的 plugin 名称必须与 `.codex-plugin/plugin.json` 保持一致。
-- 不加入上游 `personal`、`deprecated` 或其他 `in-progress` / `inprogress` skill，除非公开包策略明确改变。目前只包含 `review` 这一个 `in-progress` skill。
+- 不加入上游 `personal`、`deprecated`、`misc` 或其他 `in-progress` skill，除非公开包策略明确改变。目前只包含 `review` 这一个 `in-progress` skill。
 - 同步上游时，先审查新增 skill，再决定是否暴露到本 plugin。

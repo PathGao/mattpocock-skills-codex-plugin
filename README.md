@@ -13,7 +13,7 @@ This repository is intended for public Codex plugin installation. It packages th
 - Upstream base: `mattpocock/skills` version `1.0.1`
 - License: MIT, following the upstream project metadata
 
-This package is derived from the upstream `1.0.1` content and removes the upstream `personal`, `deprecated`, and `in-progress` / `inprogress` areas by default. The only `in-progress` skill currently restored is `review`, from upstream `skills/in-progress/review`, as a public-package exception. The plugin exposes the curated skills under the `mattpocock-skills` Codex namespace.
+This package is derived from the upstream `1.0.1` content and removes the upstream `personal`, `deprecated`, and `in-progress` areas by default. The only `in-progress` skill currently restored is `review`, from upstream `skills/in-progress/review`, as a public-package exception. Upstream `misc/*` is not included because those skills are mostly tooling or Claude-specific guardrails and are not suitable as default Codex plugin skills. The plugin exposes the curated skills under the `mattpocock-skills` Codex namespace.
 
 ## Included Skills
 
@@ -81,5 +81,5 @@ skills/                           Packaged skill directories
 
 - Keep `.codex-plugin/plugin.json` version aligned with the packaged upstream base or the fork release version you choose.
 - Keep `.agents/plugins/marketplace.json` plugin name aligned with `.codex-plugin/plugin.json`.
-- Do not add upstream `personal`, `deprecated`, or any other `in-progress` / `inprogress` skill unless the public package policy changes. Currently, `review` is the only included `in-progress` skill.
+- Do not add upstream `personal`, `deprecated`, `misc`, or any other `in-progress` skill unless the public package policy changes. Currently, `review` is the only included `in-progress` skill.
 - When pulling upstream updates, review every new skill before exposing it in this plugin.
