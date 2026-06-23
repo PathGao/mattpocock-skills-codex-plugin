@@ -1,5 +1,7 @@
 # Matt Pocock Skills Codex Plugin
 
+[中文说明](./README.zh-CN.md)
+
 A Codex plugin package for selected skills from [mattpocock/skills](https://github.com/mattpocock/skills).
 
 This repository is intended for public Codex plugin installation. It packages the skills as a native Codex plugin with `.codex-plugin/plugin.json` and a Codex marketplace manifest at `.agents/plugins/marketplace.json`.
