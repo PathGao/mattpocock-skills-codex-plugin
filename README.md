@@ -17,25 +17,16 @@ This package is derived from the upstream `1.0.1` content and removes the upstre
 
 ## Included Skills
 
-- `ask-matt`
-- `codebase-design`
-- `diagnosing-bugs`
-- `domain-modeling`
-- `grill-me`
-- `grill-with-docs`
-- `grilling`
-- `handoff`
-- `implement`
-- `improve-codebase-architecture`
-- `prototype`
-- `review`
-- `setup-matt-pocock-skills`
-- `tdd`
-- `teach`
-- `to-issues`
-- `to-prd`
-- `triage`
-- `writing-great-skills`
+| Workflow | Skills | Purpose |
+|---|---|---|
+| Setup | `setup-matt-pocock-skills` | Configure tracker and docs |
+| Router | `ask-matt` | Pick the right flow |
+| Idea to ship | `grill-with-docs`, `to-prd`, `to-issues`, `implement` | Clarify, specify, split, build |
+| Prototype branch | `prototype`, `handoff` | Test unknowns, transfer context |
+| Build discipline | `tdd`, `review` | Test first, review diff |
+| Intake | `triage`, `diagnosing-bugs` | Classify requests, debug failures |
+| Codebase health | `improve-codebase-architecture`, `codebase-design`, `domain-modeling` | Improve structure and language |
+| Standalone | `grill-me`, `grilling`, `teach`, `writing-great-skills` | Critique, learn, write skills |
 
 ## Install
 

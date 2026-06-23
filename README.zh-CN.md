@@ -26,25 +26,16 @@ plugin 安装名保持为 `mattpocock-skills`，安装后 skill 命名空间为 
 
 ## 包含的 Skills
 
-- `ask-matt`
-- `codebase-design`
-- `diagnosing-bugs`
-- `domain-modeling`
-- `grill-me`
-- `grill-with-docs`
-- `grilling`
-- `handoff`
-- `implement`
-- `improve-codebase-architecture`
-- `prototype`
-- `review`
-- `setup-matt-pocock-skills`
-- `tdd`
-- `teach`
-- `to-issues`
-- `to-prd`
-- `triage`
-- `writing-great-skills`
+| 工作流 | Skills | 用途 |
+|---|---|---|
+| 初始化 | `setup-matt-pocock-skills` | 配置 issue 与文档 |
+| 路由 | `ask-matt` | 选择合适流程 |
+| 想法到交付 | `grill-with-docs`, `to-prd`, `to-issues`, `implement` | 澄清、写规格、拆任务、实现 |
+| 原型分支 | `prototype`, `handoff` | 验证未知、迁移上下文 |
+| 实现纪律 | `tdd`, `review` | 测试先行、审查 diff |
+| 输入处理 | `triage`, `diagnosing-bugs` | 分类请求、诊断故障 |
+| 代码库健康 | `improve-codebase-architecture`, `codebase-design`, `domain-modeling` | 改结构、沉淀语言 |
+| 独立工具 | `grill-me`, `grilling`, `teach`, `writing-great-skills` | 拷问、学习、写 skill |
 
 ## 安装
 
